@@ -29,7 +29,7 @@ Features:
     client = {
         event = 'fearx_wallet:openWallet'
     }
-}
+},
 ```
 
 If your item definitions are in JSON or via database, ensure the same name and client event.
@@ -64,3 +64,4 @@ See `config.lua` for:
 - The resource uses ox_inventory RegisterHook to enforce allowed contents and cash limit. Ensure your ox_inventory is updated to a version that supports these hooks.
 - If your IDs/licenses have different item names, update `Config.AllowedItems` accordingly.
 - If you want the stash to only have 4 slots, change `Config.Slots` to 4. Restriction on item types remains enforced by hooks.
+
